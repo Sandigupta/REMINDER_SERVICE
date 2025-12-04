@@ -1,7 +1,6 @@
 const cron = require('node-cron');
 const emailService = require('../service/emailService');
 const sender = require('../config/emailConfig');
-const { response } = require('express');
 
 /**
  * 10:00 am
